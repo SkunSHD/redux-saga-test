@@ -24,7 +24,7 @@ class App extends Component {
                 </li>
             ))}
         </ul>
-          <button onClick={this.props.fetchData}>Fetch book</button>
+        <button onClick={this.props.fetchData}>Fetch book</button>
       </div>
     );
   }

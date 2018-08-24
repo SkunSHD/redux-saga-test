@@ -21,4 +21,4 @@ function* fetchBooks(action) {
 }
 
 
-export default mySaga;
+export { mySaga, fetchBooks};
